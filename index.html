@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="index.js" defer></script>
+    <title>Awesome - Books - Updated</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" id="navTitle">Awesome Books</a>
+        <ul class="navbarItems">
+          <li><a href="#" id="booksTab" class="activeNavItem">Books</a></li>
+          <li><a href="#" id="addBookTab">Add Book</a></li>
+          <li><a href="#" id="contactTab">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="dateTime" class="dateTime">Current Date and Time</div>
+    <div id="mainApp">
+      <section id="books" class="mainAppContent active">
+        <div class="avalBooks">
+          <h1 class="titleApp">All Awesome Books</h1>
+          <ul id="booksList" class="booksList"></ul>
+        </div>
+      </section>
+      <section id="addBook" class="mainAppContent">
+        <div class="addABook">
+          <form id="form" class="addBookForm">
+            <h2 class="sectionTitle">Add a new Book</h2>
+            <input
+              type="text"
+              id="bookTitle"
+              class="bookTitle"
+              required
+              placeholder="Title"
+            />
+            <input
+              type="text"
+              id="bookAuthor"
+              class="bookAuthor"
+              required
+              placeholder="Author"
+            />
+            <button id="btn" class="btn" type="submit">Add Book</button>
+          </form>
+        </div>
+      </section>
+      <section id="contact" class="mainAppContent">
+        <div class="contactContent">
+          <h2 class="contactTitle">Contact Information</h2>
+          <div>
+            <p class="contactDescription">
+              Do you have any questions or you just want to say "Hello"?
+            </p>
+            <address class="addressInfo">
+              Email us at:
+              <a href="nabeelahmed3129@gmail.com">Nabeel Ahmed</a>.<br />
+              Visit us at: www.awesomebooks.com <br />
+              Our Phone number (WhatsApp only): +92 321 5674724 <br />
+              Street # 15, Bani Gala, Islamabad<br />
+              Pakistan
+            </address>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footerApp">
+      <a class="copyright">Copyright &COPY; 2023</a>
+    </footer>
+  </body>
+</html>

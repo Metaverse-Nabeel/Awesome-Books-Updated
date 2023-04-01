@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Alkatra", cursive;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: navy;
+}
+
+nav li {
+  border-right: 2px solid black;
+  padding-right: 10px;
+  line-height: 2;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.navbar {
+  border: 2px solid black;
+  padding: 10px 3px 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#navTitle {
+  font-size: 1.7rem;
+}
+
+.navbarItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbarItems li a {
+  font-size: 1.2rem;
+}
+
+.activeNavItem {
+  color: red;
+  font-size: 1.3;
+  font-weight: bold;
+}
+
+.dateTime {
+  font-size: 1.2rem;
+  text-align: right;
+  color: navy;
+  cursor: pointer;
+}
+
+.mainAppContent {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.avalBooks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.booksList {
+  width: 75%;
+  border: 2px solid black;
+}
+
+.booksList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.booksList li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+hr {
+  width: 15%;
+}
+
+.addABook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBookForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.addBookForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionTitle {
+  text-align: center;
+}
+
+input {
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 30%;
+  padding: 5px 10px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 2px #000;
+  font-size: 1rem;
+}
+
+.remove {
+  width: auto;
+  align-self: end;
+  padding: 5px 10px;
+  box-shadow: 3px 3px 2px #000;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.contactDescription {
+  font-size: 1.3rem;
+  color: navy;
+}
+
+.addressInfo a {
+  cursor: pointer;
+}
+
+.addressInfo a:hover {
+  font-size: 1.2rem;
+  color: navy;
+  transition: all 0.7s;
+}
+
+.footerApp {
+  margin-top: auto;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  padding: 10px 3px 10px 15px;
+}
+
+footer a {
+  cursor: pointer;
+}
+
+footer a:hover {
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
