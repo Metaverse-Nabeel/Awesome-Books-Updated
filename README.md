@@ -82,7 +82,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 cd my-folder
-git clone https://github.com/Metaverse-Nabeel/Awesome_Books.git
+git clone https://github.com/Metaverse-Nabeel/Awesome-Books-Updated.git
 
 ### Install
 
